@@ -1,0 +1,897 @@
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/righteous/v18/1cXxaUPXBpj2rGoU7C9WiHGA.ttf) format('truetype');
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scaleInAndBlur {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(60);
+    text-shadow: 0px 0px 3px red;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: scale(30);
+    text-shadow: 0px 0px 3px red;
+  }
+  40% {
+    opacity: 1;
+    -webkit-transform: scale(15);
+    text-shadow: 0px 0px 3px red;
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(6);
+    text-shadow: 0px 0px 3px red;
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: scale(6);
+    text-shadow: 0px 0px 12px red;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(6);
+    text-shadow: 0px 0px 2px red;
+  }
+}
+body {
+  background-color: #000 !important;
+}
+span {
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+  background-color: blue;
+  opacity: 0;
+}
+.spanAnim {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+}
+.l1 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.05s;
+  -webkit-animation-delay: 0.05s;
+}
+.l2 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+.l3 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.15s;
+  -webkit-animation-delay: 0.15s;
+}
+.l4 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.l5 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s;
+}
+.l6 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+.l7 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.35s;
+  -webkit-animation-delay: 0.35s;
+}
+.l8 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.l9 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.45s;
+  -webkit-animation-delay: 0.45s;
+}
+.l10 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+.l11 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.55s;
+  -webkit-animation-delay: 0.55s;
+}
+.l12 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+.l13 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.65s;
+  -webkit-animation-delay: 0.65s;
+}
+.l14 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+}
+.l15 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+}
+.l16 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+}
+.l17 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.85s;
+  -webkit-animation-delay: 0.85s;
+}
+.l18 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+}
+.l19 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 0.95s;
+  -webkit-animation-delay: 0.95s;
+}
+.l20 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.l21 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.05s;
+  -webkit-animation-delay: 1.05s;
+}
+.l22 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+}
+.l23 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.15s;
+  -webkit-animation-delay: 1.15s;
+}
+.l24 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+.l25 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.25s;
+  -webkit-animation-delay: 1.25s;
+}
+.l26 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
+}
+.l27 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.35s;
+  -webkit-animation-delay: 1.35s;
+}
+.l28 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.4s;
+  -webkit-animation-delay: 1.4s;
+}
+.l29 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.45s;
+  -webkit-animation-delay: 1.45s;
+}
+.l30 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.l31 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.55s;
+  -webkit-animation-delay: 1.55s;
+}
+.l32 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
+}
+.l33 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.65s;
+  -webkit-animation-delay: 1.65s;
+}
+.l34 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.7s;
+  -webkit-animation-delay: 1.7s;
+}
+.l35 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.75s;
+  -webkit-animation-delay: 1.75s;
+}
+.l36 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+}
+.l37 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.85s;
+  -webkit-animation-delay: 1.85s;
+}
+.l38 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.9s;
+  -webkit-animation-delay: 1.9s;
+}
+.l39 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 1.95s;
+  -webkit-animation-delay: 1.95s;
+}
+.l40 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.l41 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.05s;
+  -webkit-animation-delay: 2.05s;
+}
+.l42 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.1s;
+  -webkit-animation-delay: 2.1s;
+}
+.l43 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.15s;
+  -webkit-animation-delay: 2.15s;
+}
+.l44 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.2s;
+  -webkit-animation-delay: 2.2s;
+}
+.l45 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.25s;
+  -webkit-animation-delay: 2.25s;
+}
+.l46 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.3s;
+  -webkit-animation-delay: 2.3s;
+}
+.l47 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.35s;
+  -webkit-animation-delay: 2.35s;
+}
+.l48 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.4s;
+  -webkit-animation-delay: 2.4s;
+}
+.l49 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.45s;
+  -webkit-animation-delay: 2.45s;
+}
+.l50 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+.l51 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.55s;
+  -webkit-animation-delay: 2.55s;
+}
+.l52 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.6s;
+  -webkit-animation-delay: 2.6s;
+}
+.l53 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.65s;
+  -webkit-animation-delay: 2.65s;
+}
+.l54 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.7s;
+  -webkit-animation-delay: 2.7s;
+}
+.l55 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.75s;
+  -webkit-animation-delay: 2.75s;
+}
+.l56 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.8s;
+  -webkit-animation-delay: 2.8s;
+}
+.l57 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.85s;
+  -webkit-animation-delay: 2.85s;
+}
+.l58 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.9s;
+  -webkit-animation-delay: 2.9s;
+}
+.l59 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 2.95s;
+  -webkit-animation-delay: 2.95s;
+}
+.l60 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+.l61 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.05s;
+  -webkit-animation-delay: 3.05s;
+}
+.l62 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.1s;
+  -webkit-animation-delay: 3.1s;
+}
+.l63 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.15s;
+  -webkit-animation-delay: 3.15s;
+}
+.l64 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.2s;
+  -webkit-animation-delay: 3.2s;
+}
+.l65 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.25s;
+  -webkit-animation-delay: 3.25s;
+}
+.l66 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.3s;
+  -webkit-animation-delay: 3.3s;
+}
+.l67 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.35s;
+  -webkit-animation-delay: 3.35s;
+}
+.l68 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.4s;
+  -webkit-animation-delay: 3.4s;
+}
+.l69 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.45s;
+  -webkit-animation-delay: 3.45s;
+}
+.l70 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.5s;
+  -webkit-animation-delay: 3.5s;
+}
+.l71 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.55s;
+  -webkit-animation-delay: 3.55s;
+}
+.l72 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.6s;
+  -webkit-animation-delay: 3.6s;
+}
+.l73 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.65s;
+  -webkit-animation-delay: 3.65s;
+}
+.l74 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.7s;
+  -webkit-animation-delay: 3.7s;
+}
+.l75 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.75s;
+  -webkit-animation-delay: 3.75s;
+}
+.l76 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.8s;
+  -webkit-animation-delay: 3.8s;
+}
+.l77 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.85s;
+  -webkit-animation-delay: 3.85s;
+}
+.l78 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.9s;
+  -webkit-animation-delay: 3.9s;
+}
+.l79 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 3.95s;
+  -webkit-animation-delay: 3.95s;
+}
+.l80 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+}
+.l81 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.05s;
+  -webkit-animation-delay: 4.05s;
+}
+.l82 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.1s;
+  -webkit-animation-delay: 4.1s;
+}
+.l83 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.15s;
+  -webkit-animation-delay: 4.15s;
+}
+.l84 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.2s;
+  -webkit-animation-delay: 4.2s;
+}
+.l85 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.25s;
+  -webkit-animation-delay: 4.25s;
+}
+.l86 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.3s;
+  -webkit-animation-delay: 4.3s;
+}
+.l87 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.35s;
+  -webkit-animation-delay: 4.35s;
+}
+.l88 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.4s;
+  -webkit-animation-delay: 4.4s;
+}
+.l89 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.45s;
+  -webkit-animation-delay: 4.45s;
+}
+.l90 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.5s;
+  -webkit-animation-delay: 4.5s;
+}
+.l91 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.55s;
+  -webkit-animation-delay: 4.55s;
+}
+.l92 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.6s;
+  -webkit-animation-delay: 4.6s;
+}
+.l93 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.65s;
+  -webkit-animation-delay: 4.65s;
+}
+.l94 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.7s;
+  -webkit-animation-delay: 4.7s;
+}
+.l95 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.75s;
+  -webkit-animation-delay: 4.75s;
+}
+.l96 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.8s;
+  -webkit-animation-delay: 4.8s;
+}
+.l97 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.85s;
+  -webkit-animation-delay: 4.85s;
+}
+.l98 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.9s;
+  -webkit-animation-delay: 4.9s;
+}
+.l99 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 4.95s;
+  -webkit-animation-delay: 4.95s;
+}
+.l100 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+}
+.l101 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.05s;
+  -webkit-animation-delay: 5.05s;
+}
+.l102 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.1s;
+  -webkit-animation-delay: 5.1s;
+}
+.l103 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.15s;
+  -webkit-animation-delay: 5.15s;
+}
+.l104 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.2s;
+  -webkit-animation-delay: 5.2s;
+}
+.l105 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.25s;
+  -webkit-animation-delay: 5.25s;
+}
+.l106 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.3s;
+  -webkit-animation-delay: 5.3s;
+}
+.l107 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.35s;
+  -webkit-animation-delay: 5.35s;
+}
+.l108 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.4s;
+  -webkit-animation-delay: 5.4s;
+}
+.l109 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.45s;
+  -webkit-animation-delay: 5.45s;
+}
+.l110 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.5s;
+  -webkit-animation-delay: 5.5s;
+}
+.l111 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.55s;
+  -webkit-animation-delay: 5.55s;
+}
+.l112 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.6s;
+  -webkit-animation-delay: 5.6s;
+}
+.l113 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.65s;
+  -webkit-animation-delay: 5.65s;
+}
+.l114 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.7s;
+  -webkit-animation-delay: 5.7s;
+}
+.l115 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.75s;
+  -webkit-animation-delay: 5.75s;
+}
+.l116 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.8s;
+  -webkit-animation-delay: 5.8s;
+}
+.l117 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.85s;
+  -webkit-animation-delay: 5.85s;
+}
+.l118 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.9s;
+  -webkit-animation-delay: 5.9s;
+}
+.l119 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 5.95s;
+  -webkit-animation-delay: 5.95s;
+}
+.l120 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+}
+.l121 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.05s;
+  -webkit-animation-delay: 6.05s;
+}
+.l122 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.1s;
+  -webkit-animation-delay: 6.1s;
+}
+.l123 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.15s;
+  -webkit-animation-delay: 6.15s;
+}
+.l124 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.2s;
+  -webkit-animation-delay: 6.2s;
+}
+.l125 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.25s;
+  -webkit-animation-delay: 6.25s;
+}
+.l126 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.3s;
+  -webkit-animation-delay: 6.3s;
+}
+.l127 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.35s;
+  -webkit-animation-delay: 6.35s;
+}
+.l128 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.4s;
+  -webkit-animation-delay: 6.4s;
+}
+.l129 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.45s;
+  -webkit-animation-delay: 6.45s;
+}
+.l130 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.5s;
+  -webkit-animation-delay: 6.5s;
+}
+.l131 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.55s;
+  -webkit-animation-delay: 6.55s;
+}
+.l132 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.6s;
+  -webkit-animation-delay: 6.6s;
+}
+.l133 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.65s;
+  -webkit-animation-delay: 6.65s;
+}
+.l134 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.7s;
+  -webkit-animation-delay: 6.7s;
+}
+.l135 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.75s;
+  -webkit-animation-delay: 6.75s;
+}
+.l136 {
+  animation: fadeIn 0.3s linear forwards normal;
+  -webkit-animation: fadeIn 0.3s linear forwards normal;
+  animation-delay: 6.8s;
+  -webkit-animation-delay: 6.8s;
+}
+.name {
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+  color: #FDFF00;
+  opacity: 0;
+  text-shadow: 0px 0px 3px red;
+  animation: scaleInAndBlur 5s linear forwards normal;
+  -webkit-animation: scaleInAndBlur 5s linear forwards normal;
+  animation-delay: 6.85s;
+  -webkit-animation-delay: 6.85s;
+}
+.back {
+  z-index: 0;
+}
+.front {
+  z-index: 1;
+  position: relative;
+}
